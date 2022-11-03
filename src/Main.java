@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class Main {
 
+    public int plus(int input_first, int input_second) {
+        int output_plus = input_first + input_second;
+        return output_plus;
+    }
  
     public static void main(String[] args) {
         //입력
@@ -11,7 +15,8 @@ public class Main {
         scanner.close();
 
         //처리
-        int output_plus = input_first + input_second;
+        Main main = new Main();
+        int output_plus = main.plus(input_first, input_second);
 
         //출력
         System.out.println(output_plus);
