@@ -1,3 +1,4 @@
+package javaPractice;
 import java.util.Scanner;
 public class AddAB {
     public static void main(String[] args){
