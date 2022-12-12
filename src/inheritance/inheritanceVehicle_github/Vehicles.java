@@ -18,7 +18,4 @@ public class Vehicles extends Object{
         return result;
     };
 
-public void yaho(){
-    System.out.println("야호");
-}
 }
