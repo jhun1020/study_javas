@@ -17,7 +17,7 @@ public class ApiExplorersWithDatagoKr_myself{
 
         StringBuilder urlBuilder = new StringBuilder("https://apis.data.go.kr/1741000/TsunamiShelter3/getTsunamiShelter1List"); /*URL*/
         // 2. 오픈 API의요청 규격에 맞는 파라미터 생성, 발급받은 인증키.
-        urlBuilder.append("?" + URLEncoder.encode("ServiceKey","UTF-8") + "=" + URLEncoder.encode("F8urQtWbXWR0eW72eAeRNVGCy5cvwfdcmi9pS%2FV30UzQidC1LUt2Aog6nAvaWENf72H2v4M09sz8d%2BcA%2B3y%2B%2Fw%3D%3D", "UTF-8")); /*Service Key*/
+        urlBuilder.append("?" + URLEncoder.encode("ServiceKey","UTF-8") + "=" + URLEncoder.encode("F8urQtWbXWR0eW72eAeRNVGCy5cvwfdcmi9pS%2FV30UzQidC1LUt2Aog6nAvaWENf72H2v4M09sz8d%2BcA%2B3y%2B%2Fw%3D%3D")); /*Service Key*/
         urlBuilder.append("&" + URLEncoder.encode("stdt","UTF-8") + "=" + URLEncoder.encode("1995", "UTF-8")); //조회시작년도
 
         // 연결 버튼
